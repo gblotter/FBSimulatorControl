@@ -418,6 +418,8 @@ static NSTimeInterval const FBSimulatorPoolDefaultWait = 30.0;
   ];
   NSError *innerError = nil;
   if (![executor executeShellCommand:command returningError:&innerError]) {
+    NSLog(@"cmdfail: %@", command);
+    NSLog(@"reason: %@", innerError);
     return [FBSimulatorError failBoolWithError:innerError description:@"Failed to Kill Simulator Process" errorOut:error];
   }
   return YES;
