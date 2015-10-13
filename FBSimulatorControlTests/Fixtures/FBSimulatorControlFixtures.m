@@ -19,4 +19,10 @@
   return [FBSimulatorApplication applicationWithPath:path error:error];
 }
 
++ (NSString *)tableSearchXCTestPath
+{
+  NSString *path = [[NSBundle bundleForClass:self] pathForResource:@"TableSearchTests" ofType:@"xctest"];
+  return path;
+}
+
 @end

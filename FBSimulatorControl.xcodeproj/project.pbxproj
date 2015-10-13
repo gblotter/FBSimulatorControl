@@ -103,6 +103,7 @@
 		AA8DF8CB1BB18B3700CC0411 /* FBInteraction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8DF8C81BB18B3700CC0411 /* FBInteraction+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA8DFB101BAC76B60076A6C2 /* FBSimulatorControlNotificationAssertion.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8DFB0D1BAC76B60076A6C2 /* FBSimulatorControlNotificationAssertion.m */; settings = {ASSET_TAGS = (); }; };
 		AA8DFB111BAC76B60076A6C2 /* FBSimulatorSessionStateAssertion.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8DFB0F1BAC76B60076A6C2 /* FBSimulatorSessionStateAssertion.m */; settings = {ASSET_TAGS = (); }; };
+		AA9CB3041BCCE9F0001965A6 /* TableSearchTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = AA9CB3031BCCE9F0001965A6 /* TableSearchTests.xctest */; settings = {ASSET_TAGS = (); }; };
 		AAAA67C61BC4FED200075197 /* FBSimulatorControlFixtures.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA67C51BC4FED200075197 /* FBSimulatorControlFixtures.m */; settings = {ASSET_TAGS = (); }; };
 		AAAA67C91BC501BB00075197 /* TableSearch.app in Resources */ = {isa = PBXBuildFile; fileRef = AAAA67C71BC5018500075197 /* TableSearch.app */; };
 		AAB4AC191BB586640046F6A1 /* FBSimulatorVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB4AC171BB586640046F6A1 /* FBSimulatorVideoRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -830,6 +831,7 @@
 		AA8DFB0D1BAC76B60076A6C2 /* FBSimulatorControlNotificationAssertion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSimulatorControlNotificationAssertion.m; sourceTree = "<group>"; };
 		AA8DFB0E1BAC76B60076A6C2 /* FBSimulatorSessionStateAssertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSimulatorSessionStateAssertion.h; sourceTree = "<group>"; };
 		AA8DFB0F1BAC76B60076A6C2 /* FBSimulatorSessionStateAssertion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSimulatorSessionStateAssertion.m; sourceTree = "<group>"; };
+		AA9CB3031BCCE9F0001965A6 /* TableSearchTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TableSearchTests.xctest; sourceTree = "<group>"; };
 		AAAA67C41BC4FED200075197 /* FBSimulatorControlFixtures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSimulatorControlFixtures.h; sourceTree = "<group>"; };
 		AAAA67C51BC4FED200075197 /* FBSimulatorControlFixtures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSimulatorControlFixtures.m; sourceTree = "<group>"; };
 		AAAA67C71BC5018500075197 /* TableSearch.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = TableSearch.app; sourceTree = "<group>"; };
@@ -1678,6 +1680,7 @@
 				AAAA67C41BC4FED200075197 /* FBSimulatorControlFixtures.h */,
 				AAAA67C51BC4FED200075197 /* FBSimulatorControlFixtures.m */,
 				AAAA67C71BC5018500075197 /* TableSearch.app */,
+				AA9CB3031BCCE9F0001965A6 /* TableSearchTests.xctest */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -1880,6 +1883,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAA67C91BC501BB00075197 /* TableSearch.app in Resources */,
+				AA9CB3041BCCE9F0001965A6 /* TableSearchTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

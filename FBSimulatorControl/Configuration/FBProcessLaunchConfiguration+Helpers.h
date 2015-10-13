@@ -19,3 +19,12 @@
 - (instancetype)withDiagnosticEnvironment;
 
 @end
+
+@interface FBApplicationLaunchConfiguration (Helpers)
+
+/**
+ Adds XCTest Application test Launch information.
+ */
+- (instancetype)withXCTestBundle:(NSString *)xcTestBundlePath error:(NSError **)error;
+
+@end
