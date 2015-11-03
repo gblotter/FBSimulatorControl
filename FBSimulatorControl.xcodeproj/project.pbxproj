@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		877123F01BDA78AA00530B1E /* FBSimulatorVideoUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 877123EE1BDA78AA00530B1E /* FBSimulatorVideoUploader.h */; settings = {ASSET_TAGS = (); }; };
-		877123F11BDA78AA00530B1E /* FBSimulatorVideoUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 877123EF1BDA78AA00530B1E /* FBSimulatorVideoUploader.m */; settings = {ASSET_TAGS = (); }; };
-		877123F31BDA797800530B1E /* video0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 877123F21BDA797800530B1E /* video0.mp4 */; settings = {ASSET_TAGS = (); }; };
+		877123F01BDA78AA00530B1E /* FBSimulatorVideoUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 877123EE1BDA78AA00530B1E /* FBSimulatorVideoUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877123F11BDA78AA00530B1E /* FBSimulatorVideoUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 877123EF1BDA78AA00530B1E /* FBSimulatorVideoUploader.m */; };
+		877123F31BDA797800530B1E /* video0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 877123F21BDA797800530B1E /* video0.mp4 */; };
 		AA017F271BD7770300F45E9D /* FBSimulatorLogsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA017F251BD7770300F45E9D /* FBSimulatorLogsTests.m */; };
 		AA017F281BD7770300F45E9D /* FBWritableLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA017F261BD7770300F45E9D /* FBWritableLogTests.m */; };
 		AA017F2F1BD7771300F45E9D /* FBSimulatorLogs.h in Headers */ = {isa = PBXBuildFile; fileRef = AA017F2A1BD7771300F45E9D /* FBSimulatorLogs.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -116,6 +116,7 @@
 		AA8DF8C91BB18B3700CC0411 /* FBInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8DF8C61BB18B3700CC0411 /* FBInteraction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA8DF8CA1BB18B3700CC0411 /* FBInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8DF8C71BB18B3700CC0411 /* FBInteraction.m */; };
 		AA8DF8CB1BB18B3700CC0411 /* FBInteraction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8DF8C81BB18B3700CC0411 /* FBInteraction+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA93B7A61BE833FA00CF6A56 /* FBSimulatorControl+Class.h in Headers */ = {isa = PBXBuildFile; fileRef = AA93B7A51BE8335D00CF6A56 /* FBSimulatorControl+Class.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAAA67C61BC4FED200075197 /* FBSimulatorControlFixtures.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA67C51BC4FED200075197 /* FBSimulatorControlFixtures.m */; };
 		AAAA67C91BC501BB00075197 /* TableSearch.app in Resources */ = {isa = PBXBuildFile; fileRef = AAAA67C71BC5018500075197 /* TableSearch.app */; };
 		AAB4AC191BB586640046F6A1 /* FBSimulatorVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB4AC171BB586640046F6A1 /* FBSimulatorVideoRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -858,6 +859,7 @@
 		AA8DF8C61BB18B3700CC0411 /* FBInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBInteraction.h; sourceTree = "<group>"; };
 		AA8DF8C71BB18B3700CC0411 /* FBInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBInteraction.m; sourceTree = "<group>"; };
 		AA8DF8C81BB18B3700CC0411 /* FBInteraction+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBInteraction+Private.h"; sourceTree = "<group>"; };
+		AA93B7A51BE8335D00CF6A56 /* FBSimulatorControl+Class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBSimulatorControl+Class.h"; sourceTree = "<group>"; };
 		AAAA67C41BC4FED200075197 /* FBSimulatorControlFixtures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSimulatorControlFixtures.h; sourceTree = "<group>"; };
 		AAAA67C51BC4FED200075197 /* FBSimulatorControlFixtures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSimulatorControlFixtures.m; sourceTree = "<group>"; };
 		AAAA67C71BC5018500075197 /* TableSearch.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = TableSearch.app; sourceTree = "<group>"; };
@@ -976,6 +978,7 @@
 				AA4876D71BAC74B9007F7D23 /* FBSimulator+Queries.m */,
 				AA4876DB1BAC74B9007F7D23 /* FBSimulatorControl.h */,
 				AA4876DC1BAC74B9007F7D23 /* FBSimulatorControl.m */,
+				AA93B7A51BE8335D00CF6A56 /* FBSimulatorControl+Class.h */,
 				AA4876DA1BAC74B9007F7D23 /* FBSimulatorControl+Private.h */,
 				AA4876DE1BAC74B9007F7D23 /* FBSimulatorInteraction.h */,
 				AA4876DF1BAC74B9007F7D23 /* FBSimulatorInteraction.m */,
@@ -1865,7 +1868,7 @@
 				AAB4AC211BB59B790046F6A1 /* FBSimulatorWindowTilingStrategy.h in Headers */,
 				AAC2411C1BB30CB30054570C /* FBSimulatorPredicates.h in Headers */,
 				AA4877371BAC74B9007F7D23 /* FBDispatchSourceNotifier.h in Headers */,
-				877123F01BDA78AA00530B1E /* FBSimulatorVideoUploader.h in Headers */,
+				AA93B7A61BE833FA00CF6A56 /* FBSimulatorControl+Class.h in Headers */,
 				AA4877281BAC74B9007F7D23 /* FBSimulatorControl.h in Headers */,
 				AA017F361BD7772D00F45E9D /* FBConcurrentCollectionOperations.h in Headers */,
 				AA377CF81BB3EC9C0058E26E /* FBSimulatorWindowHelpers.h in Headers */,
@@ -1876,6 +1879,7 @@
 				AA74B9991BB014A200C1E59C /* FBSimulatorError.h in Headers */,
 				AA8DF8CB1BB18B3700CC0411 /* FBInteraction+Private.h in Headers */,
 				AA4877121BAC74B9007F7D23 /* FBProcessLaunchConfiguration+Helpers.h in Headers */,
+				877123F01BDA78AA00530B1E /* FBSimulatorVideoUploader.h in Headers */,
 				AA4877251BAC74B9007F7D23 /* FBSimulator.h in Headers */,
 				AA4877451BAC74B9007F7D23 /* FBSimulatorSessionState+Private.h in Headers */,
 			);
@@ -2064,6 +2068,7 @@
 		4952437303EDA63300000000 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2120,6 +2125,7 @@
 		4952437350C7218900000000 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -2176,6 +2182,7 @@
 		49524373A439BFE700000000 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = YES;
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
