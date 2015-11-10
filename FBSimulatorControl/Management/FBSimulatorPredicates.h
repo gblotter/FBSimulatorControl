@@ -9,7 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-@class FBSimulator;
+#import <FBSimulatorControl/FBSimulator.h>
+
 @class FBSimulatorConfiguration;
 @class FBSimulatorPool;
 
@@ -38,6 +39,10 @@
  Predicate for only the provided Simulator.
  */
 + (NSPredicate *)only:(FBSimulator *)simulator;
+
++ (NSPredicate *)onlyUDID:(NSString *)udid;
+
++ (NSPredicate *)withState:(FBSimulatorState)state;
 
 /**
  Predicate for matching SimDevices against a Configuration.
