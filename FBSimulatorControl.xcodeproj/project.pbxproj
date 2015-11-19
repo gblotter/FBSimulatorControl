@@ -118,6 +118,7 @@
 		AA8DF8CA1BB18B3700CC0411 /* FBInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8DF8C71BB18B3700CC0411 /* FBInteraction.m */; };
 		AA8DF8CB1BB18B3700CC0411 /* FBInteraction+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8DF8C81BB18B3700CC0411 /* FBInteraction+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAAA67C61BC4FED200075197 /* FBSimulatorControlFixtures.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAA67C51BC4FED200075197 /* FBSimulatorControlFixtures.m */; };
+		AA9CB3041BCCE9F0001965A6 /* TableSearchTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = AA9CB3031BCCE9F0001965A6 /* TableSearchTests.xctest */; settings = {ASSET_TAGS = (); }; };
 		AAAA67C91BC501BB00075197 /* TableSearch.app in Resources */ = {isa = PBXBuildFile; fileRef = AAAA67C71BC5018500075197 /* TableSearch.app */; };
 		AAB4AC191BB586640046F6A1 /* FBSimulatorVideoRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB4AC171BB586640046F6A1 /* FBSimulatorVideoRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAB4AC1A1BB586640046F6A1 /* FBSimulatorVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4AC181BB586640046F6A1 /* FBSimulatorVideoRecorder.m */; };
@@ -861,6 +862,7 @@
 		AA8DF8C61BB18B3700CC0411 /* FBInteraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBInteraction.h; sourceTree = "<group>"; };
 		AA8DF8C71BB18B3700CC0411 /* FBInteraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBInteraction.m; sourceTree = "<group>"; };
 		AA8DF8C81BB18B3700CC0411 /* FBInteraction+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBInteraction+Private.h"; sourceTree = "<group>"; };
+		AA9CB3031BCCE9F0001965A6 /* TableSearchTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TableSearchTests.xctest; sourceTree = "<group>"; };
 		AAAA67C41BC4FED200075197 /* FBSimulatorControlFixtures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSimulatorControlFixtures.h; sourceTree = "<group>"; };
 		AAAA67C51BC4FED200075197 /* FBSimulatorControlFixtures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSimulatorControlFixtures.m; sourceTree = "<group>"; };
 		AAAA67C71BC5018500075197 /* TableSearch.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = TableSearch.app; sourceTree = "<group>"; };
@@ -1750,6 +1752,7 @@
 				AAD3051E1BD4D5B10047376E /* photo1.png */,
 				AAAA67C71BC5018500075197 /* TableSearch.app */,
 				877123F21BDA797800530B1E /* video0.mp4 */,
+				AA9CB3031BCCE9F0001965A6 /* TableSearchTests.xctest */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -1974,6 +1977,7 @@
 				AAD305201BD4D5B10047376E /* photo1.png in Resources */,
 				AAAA67C91BC501BB00075197 /* TableSearch.app in Resources */,
 				AAD3051F1BD4D5B10047376E /* photo0.png in Resources */,
+				AA9CB3041BCCE9F0001965A6 /* TableSearchTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
