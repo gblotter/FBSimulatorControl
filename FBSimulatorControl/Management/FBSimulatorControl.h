@@ -38,6 +38,7 @@
 #import <FBSimulatorControl/FBSimulatorPool.h>
 #import <FBSimulatorControl/FBSimulatorPool+Private.h>
 #import <FBSimulatorControl/FBSimulatorPredicates.h>
+#import <FBSimulatorControl/FBSimulatorTerminationStrategy.h>
 
 
 // Model
